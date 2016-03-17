@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm i designkit-animate
+npm i designkit-*
 ```
 
 ## Usage
