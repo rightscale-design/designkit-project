@@ -31,5 +31,8 @@
     "build-min": "./bin/build-min",
     "watch-css": "./bin/watch-css",
     "serve": "./bin/http-server"
+  },
+  "dependencies": {
+    "designkit-colors": "0.0.8"
   }
 }

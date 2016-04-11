@@ -1,0 +1,14 @@
+/*
+//
+// Designkit-Highlight
+// --------------------------------------------------
+*/
+.inline-highlight {
+  background: #E2E5E9;
+  border-radius: 2px;
+  color: #76899A;
+  font-size: 1.1rem;
+  font-weight: normal;
+  padding: .2rem .5rem;
+  position: relative;
+}
