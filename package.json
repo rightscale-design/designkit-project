@@ -1,10 +1,10 @@
 {
-  "name": "designkit-highlight",
+  "name": "designkit-*",
   "version": "0.0.1",
-  "description": "Sass module for css highlights.",
+  "description": "Sass module for css *.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rightscale-design/designkit-highlight.git"
+    "url": "git+https://github.com/rightscale-design/designkit-*.git"
   },
   "author": {
     "name": "Jason Melgoza",
@@ -19,7 +19,7 @@
     "Sass"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/rightscale-design/designkit-highlight#readme",
+  "homepage": "https://github.com/rightscale-design/designkit-*#readme",
   "devDependencies": {
     "bourbon": "^4.2.6",
     "http-server": "^0.8.5",
@@ -31,8 +31,5 @@
     "build-min": "./bin/build-min",
     "watch-css": "./bin/watch-css",
     "serve": "./bin/http-server"
-  },
-  "dependencies": {
-    "designkit-colors": "0.0.8"
   }
 }
