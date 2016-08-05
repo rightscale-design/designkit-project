@@ -1,4 +1,4 @@
-# Designkit Sample
+# Designkit *
 
 ## Install
 

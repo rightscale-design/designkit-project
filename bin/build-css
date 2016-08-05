@@ -3,4 +3,4 @@ node-sass \
   --output-style expanded \
   --output css \
   --include-path node_modules/bourbon/app/assets/stylesheets \
-  src/index.scss css/designkit-highlight.css
+  src/index.scss css/designkit-*.css

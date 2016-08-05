@@ -10,6 +10,9 @@
     "name": "Jason Melgoza",
     "email": "jason@rightscale.com"
   },
+  "main": "css/designkit-*.css",
+  "style": "css/designkit-*.css",
+  "scss": "src/index.scss",
   "files": [
     "src",
     "css"
@@ -21,10 +24,10 @@
   "license": "MIT",
   "homepage": "https://github.com/rightscale-design/designkit-*#readme",
   "devDependencies": {
-    "bourbon": "^4.2.6",
-    "http-server": "^0.8.5",
-    "node-sass": "^3.4.2",
-    "nodemon": "^1.8.1"
+    "bourbon": "^4.2.7",
+    "http-server": "^0.9.0",
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.10.0"
   },
   "scripts": {
     "build-css": "./bin/build-css",
