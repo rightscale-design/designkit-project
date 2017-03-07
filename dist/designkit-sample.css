@@ -1,10 +1,8 @@
-@charset "UTF-8";
-
 /*
 //
 // Designkit-*
 // --------------------------------------------------
 */
-
-@import "bourbon";
-@import "src/designkit-*";
+body {
+  background: #fff;
+}
