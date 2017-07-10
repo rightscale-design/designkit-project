@@ -1,6 +1,6 @@
 {
   "name": "designkit-sample",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Sass module for css *.",
   "repository": {
     "type": "git",
@@ -35,7 +35,7 @@
   },
   "scripts": {
     "start": "npm run build:serve",
-    "serve": "http-server -p 9000 -o",
+    "serve": "http-server docs -p 9000",
     "watch": "nodemon -e scss -x 'npm run build:all'",
     "build:scss": "./bin/scss",
     "build:prefix": "postcss -u autoprefixer -b 'last 2 versions' < src/css/_designkit-sample.css > dist/designkit-sample.css",
