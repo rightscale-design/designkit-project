@@ -10,17 +10,6 @@
     "name": "Jason Melgoza",
     "email": "jason@rightscale.com"
   },
-  "main": "css/designkit-sample.css",
-  "style": "css/designkit-sample.css",
-  "scss": "src/index.scss",
-  "files": [
-    "src",
-    "css"
-  ],
-  "keywords": [
-    "css",
-    "Sass"
-  ],
   "license": "MIT",
   "homepage": "https://github.com/rightscale-design/designkit-sample#readme",
   "devDependencies": {
