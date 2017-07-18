@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm i designkit-*
+npm install designkit-* --save
 ```
 
 ## Usage
