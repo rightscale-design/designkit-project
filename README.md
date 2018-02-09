@@ -1,20 +1,19 @@
-# Designkit *
+# designkit-sample
+1.0.0
+
+A Sass module for * used in RightScale apps.
 
 ## Install
-
-```bash
-npm install designkit-* --save
+```
+npm i --save designkit-sample
 ```
 
-## Usage
-
-```html
-
-```
-
-## The CSS
+### CSS
 
 ```css
+body {
+  background: #0769c6;
+}
 
 ```
 
