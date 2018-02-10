@@ -8,7 +8,7 @@
 npm i --save <%= module.name %>
 ```
 
-### CSS
+## CSS
 
 ```css
 <%= srcCSS %>
