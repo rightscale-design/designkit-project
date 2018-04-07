@@ -30,7 +30,7 @@
     "src/index.scss"
   ],
   "scss": "src/_designkit-*.scss",
-  "main": "dist/designkit-*.min.css",
+  "main": "dist/designkit-*.css",
   "browserslist": [
     "> 1%",
     "last 2 versions"
@@ -51,10 +51,9 @@
     "watch": "nodemon -e scss -x 'npm run build:all'",
     "build:scss": "node ./scripts/scss.js",
     "build:prefix": "node ./scripts/postcss.js",
-    "build:minify": "node ./scripts/minify.js",
     "build:docs": "node ./scripts/docs.js",
     "build:readme": "node ./scripts/readme.js",
-    "build:all": "npm run build:scss && npm run build:prefix && npm run build:minify && npm run build:docs && npm run build:readme",
+    "build:all": "npm run build:scss && npm run build:prefix && npm run build:docs",
     "build:serve": "run-p watch serve"
   }
 }
