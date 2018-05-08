@@ -8,18 +8,18 @@ A Sass module for * used in RightScale apps.
 npm i --save designkit-sample
 ```
 
-### CSS
+## CSS
 
 ```css
 body {
-  background: #0769c6;
+  background: rgba(0, 0, 0, 0.9);
 }
 
 ```
 
 ## Author
 
-Jason Melgoza
+
 
 ## License
 
