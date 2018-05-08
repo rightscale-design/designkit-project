@@ -1,5 +1,12 @@
-# designkit-sample
-1.0.0
+<p align="center">
+  <h3 align="center">Design Kit Modules</h3>
+</p>
+
+<br>
+
+<h3>designkit-sample <span>v1.0.0</span></h3>
+
+<br>
 
 A Sass module for * used in RightScale apps.
 
@@ -8,18 +15,23 @@ A Sass module for * used in RightScale apps.
 npm i --save designkit-sample
 ```
 
-### CSS
+## Demos
+
+- [Sample](http://rightscale-design.github.io/designkit-sample/docs/sample.html)
+
+
+## CSS
 
 ```css
 body {
-  background: #0769c6;
+  background: rgba(0, 0, 0, 0.9);
 }
 
 ```
 
 ## Author
 
-Jason Melgoza
+RightScale, Inc.
 
 ## License
 

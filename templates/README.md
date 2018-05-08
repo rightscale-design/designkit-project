@@ -1,5 +1,12 @@
-# <%= module.name %>
-<%= module.version %>
+<p align="center">
+  <h3 align="center">Design Kit Modules</h3>
+</p>
+
+<br>
+
+<h3><%= module.name %> <span>v<%= module.version %></span></h3>
+
+<br>
 
 <%= module.description %>
 
@@ -7,6 +14,11 @@
 ```
 npm i --save <%= module.name %>
 ```
+
+## Demos
+
+<% _.forEach(module.demos, function(demo) { %>- [<%- demo.name %>](http://rightscale-design.github.io/<%= module.name %>/docs/<%- demo.file %>)
+<% }); %>
 
 ## CSS
 
@@ -16,7 +28,7 @@ npm i --save <%= module.name %>
 
 ## Author
 
-<%= module.author.name %>
+<%= module.author %>
 
 ## License
 
