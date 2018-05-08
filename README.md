@@ -4,8 +4,9 @@
 
 <br>
 
-# designkit-sample
-1.0.0
+<h3>designkit-sample <span>v1.0.0</span></h3>
+
+<br>
 
 A Sass module for * used in RightScale apps.
 

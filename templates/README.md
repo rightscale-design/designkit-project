@@ -4,8 +4,9 @@
 
 <br>
 
-# <%= module.name %>
-<%= module.version %>
+<h3><%= module.name %> <span>v<%= module.version %></span></h3>
+
+<br>
 
 <%= module.description %>
 
