@@ -10,6 +10,9 @@
     "styles"
   ],
   "repository": "rightscale-design/designkit-*",
+  "demos": [
+    {"name":"Sample", "file":"sample.html"}
+  ],
   "scripts": {
     "start": "npm run build:serve",
     "serve": "serve docs/ -o",
